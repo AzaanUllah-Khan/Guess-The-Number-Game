@@ -9,6 +9,7 @@ body{
     justify-content: center;
     height: 80vh;
     align-items: center;
+    background-color: #cce2ff;
 }
 .number{
     width: 40%;
@@ -16,7 +17,7 @@ body{
     padding: 15px;
     padding-bottom: 30px;
     border-radius: 10px;
-    border: 2px solid rgb(211, 255, 255);
+    border: 2px solid #0271ff;
 }
 .number h1,.number p{
     text-align: center;
@@ -46,19 +47,19 @@ body{
 }
 .submit button{
     cursor: pointer;
-    background-color: darkorange;
-    border: 1px solid rebeccapurple;
+    color: white;
+    background-color: #0271ff;
     border-radius: 5px;
     padding: 15px 10px;
     transition: all 1s ease;
 }
 .submit button:hover{
-    transform: translateY(-5px) rotate(-2deg);
+    transform: translateY(-4px) rotate(-1deg);
 }
 .status{
     width: 100%;
     text-align: center;
-    background-color: red;
+    background-color: 0271ff57;
     padding: 10px 5px;
     color: white;
     font-weight: bolder;
