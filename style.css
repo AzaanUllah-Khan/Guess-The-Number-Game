@@ -7,13 +7,14 @@
 body{
     display: flex;
     justify-content: center;
-    height: 80vh;
+    align-items: center;
+    height: 100vh;
     align-items: center;
     background-color: #cce2ff;
 }
 .number{
     width: 40%;
-    background-color: azure;
+    background-color: #92c2ff;
     padding: 15px;
     padding-bottom: 30px;
     border-radius: 10px;
@@ -31,6 +32,8 @@ body{
     margin-top: 50px;
 }
 .input input{
+    border-radius: 10px;
+    border: 1px solid #0271ff;
     font-weight: bolder;
     text-align: center;
     outline: none;
@@ -50,6 +53,7 @@ body{
     color: white;
     background-color: #0271ff;
     border-radius: 5px;
+    border: none;
     padding: 15px 10px;
     transition: all 1s ease;
 }
@@ -59,7 +63,7 @@ body{
 .status{
     width: 100%;
     text-align: center;
-    background-color: 0271ff57;
+    background-color: #0271ff57;
     padding: 10px 5px;
     color: white;
     font-weight: bolder;
